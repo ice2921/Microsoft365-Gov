@@ -24,15 +24,15 @@ The global admin for your organization has full permissions to create and manage
         
 2. On the **Labels** page, select **+ Create a label** to start the New sensitivity label wizard. 
     
-    For example, from the Microsoft 365 compliance center:
+    For example, from the  Office 365 Security & Compliance center:
     
-    ![Create a sensitivity label](../media/create-sensitivity-label-full.png)
+    ![Create a sensitivity label](/Images/sensitivity_labels.png)
     
     Note: By default, tenants don't have any labels and you must create them. The labels in the example picture show default labels that were [migrated from Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 3. On the **Define the scope for this label** page, the options selected determine the label's scope for the settings that you can configure and where they will be visible when they are published:
     
-    ![Scopes for sensitivity labels](../media/sensitivity-labels-scopes.png)
+    ![Scopes for sensitivity labels](/Images/sensitivity_labels1.png)
 **NOTE**: at the time of this writing the options for **"Groups & sites" and "Azure Purview assets (preview)"** are not available for GCC-High customers
     
     - If **Files & emails** is selected, you can configure settings in this wizard that apply to apps that support sensitivity labels, such as Office Word and Outlook. If this option isn't selected, the wizard displays the first page of these settings but you can't configure them and the labels won't be available for users to select in these apps.
@@ -47,7 +47,7 @@ The global admin for your organization has full permissions to create and manage
 
 To edit an existing label, select it, and then select the **Edit label** button:
 
-![Edit label button to edit a sensitivity label](../media/edit-sensitivity-label-full.png)
+![Edit label button to edit a sensitivity label](/Images/edit-sensitivity-label-full.png)
 
 This button starts the **Edit sensitivity label** wizard, which lets you change all the label settings in step 4.
 
@@ -72,7 +72,7 @@ Until you publish your labels, they won't be available to select in apps or for 
     
     For example, from the Microsoft 365 compliance center:
         
-    ![Publish labels](../media/publish-sensitivity-labels-full.png)
+    ![Publish labels](/Images/publish-sensitivity-labels-full.png)
     
     Note: By default, tenants don't have any label policies and you must create them. 
 
@@ -97,7 +97,7 @@ Completing the wizard automatically publishes the label policy. To make changes 
 
 To edit an existing label policy, select it, and then select the **Edit Policy** button: 
 
-![Edit a sensitivity label](../media/edit-sensitivity-label-policy-full.png)
+![Edit a sensitivity label](/Images/edit-sensitivity-label-policy-full.png)
 
 This button starts the **Create policy** wizard, which lets you edit which labels are included and the label settings. When you complete the wizard, any changes are automatically replicated to the selected users and services.
 
